@@ -12,6 +12,7 @@ public class mengetikkan_ulang_kode {
                 System.out.print(data[a][b] + " ");
             }
             System.out.println("");
+            System.out.println("hhhh");
         }
     }
 

@@ -12,7 +12,7 @@ public class menukar_nilai_array {
         int kolom = Integer.parseInt(JOptionPane.showInputDialog("Masukkan kolom: "));
 
         int nilai_baru = Integer.parseInt(JOptionPane.showInputDialog("Masukkan nilai baru: "));
-        data[baris][kolom] = nilai_baru;
+        data[baris-1][kolom-1] = nilai_baru;
 
         for (int a = 0; a< data.length; a++) {
             for (int b = 0; b < data[a].length; b++) {
@@ -20,6 +20,7 @@ public class menukar_nilai_array {
             }
             System.out.println();
         }
+        
 
         int element = 0;
         for (int i = 0; i < data.length; i++) {
